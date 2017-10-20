@@ -31,6 +31,6 @@
 *bcf
 *fdb_latexmk
 *fls
-
+_minted-main/
 # Sublime Text
 *.sublime-workspace
