@@ -8,7 +8,7 @@
 \usetikzlibrary{shapes, arrows}
 \usetheme{metropolis}
 
-\usepackage{biblatex}
+\usepackage[backend=biber]{biblatex}
 \bibliography{PyCon}
 
 
@@ -69,10 +69,13 @@
 
 \section{Why Now?}
 
-\begin{frame}{Why Now?}
-  \begin{itemize}
-    \item You're still a (very) early backer \footcite{lit1}
-  \end{itemize}
+\begin{frame}{You're still a (very) early backer}
+  \begin{figure}
+    \begin{center}
+      \includegraphics[scale=0.21]{images/statistics}
+      \caption{Source: bitcoinprivacy.net \cite{NumAdd}}
+    \end{center}
+  \end{figure}
 \end{frame}
 
 \section{What Tools?}
@@ -82,9 +85,9 @@
 \end{frame}
 
 \begin{frame}{backtrader}
-    \begin{center}
-      \includegraphics[scale=0.21]{images/quickstart}
-    \end{center}
+  \begin{center}
+    \includegraphics[scale=0.21]{images/quickstart}
+  \end{center}
 \end{frame}
 
 \section{How much have I made so far?!!}
@@ -106,6 +109,10 @@
 
     \item Website: www.jamescampbell.org.uk
   \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \printbibliography
 \end{frame}
 
 
