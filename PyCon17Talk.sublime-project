@@ -29,7 +29,11 @@
 				"*.bcf",
 				"*.bbl",
 				"*.blg",
-				"*.dvi"
+				"*.dvi",
+				"*.bbl",
+				"*.bcf",
+				"*.blg",
+				"*.xml"
 			],
 			"folder_exclude_patterns":
 			[
