@@ -24,7 +24,12 @@
 				"*.toc",
 				"*.vrb",
 				"*.xdv",
-				"*.pyg"
+				"*.pyg",
+				"*.xml",
+				"*.bcf",
+				"*.bbl",
+				"*.blg",
+				"*.dvi"
 			],
 			"folder_exclude_patterns":
 			[
@@ -39,7 +44,7 @@
 		"builder_settings":
 		{
 			"options": "--shell-escape",
-			"program": "xelatex"
+			"program": "latexmk"
 		},
 		"tex_file_exts":
 		[
