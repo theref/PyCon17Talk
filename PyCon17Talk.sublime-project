@@ -26,6 +26,10 @@
 				"*.xdv",
 				"*.pyg"
 			],
+			"folder_exclude_patterns":
+			[
+				"_minted-main"
+			],
 			"path": "."
 		}
 	],
